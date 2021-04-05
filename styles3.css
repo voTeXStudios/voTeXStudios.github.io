@@ -6,8 +6,8 @@
 
 body
 {
-    background: linear-gradient(0deg, rgba(58, 23, 58, 0.7), rgba(53, 20, 53, 0.7)), url("Wall1.jpg") no-repeat;
-	background-size: cover;
+    background: linear-gradient(0deg, rgba(14, 9, 14, 0.7), rgba(17, 6, 17, 0.7)), url("user_interface.jpg") no-repeat;
+	background-size: auto;
 	background-attachment: fixed;
 	background-position: center;
     color: white;
@@ -19,8 +19,7 @@ body
     margin-top: 50px;
     padding: 10px;
     display: block;
-    width: 100%;
-    background-color: rgba(70, 30, 70, 0.8);
+    background-color: rgba(27, 19, 27, 0.8);
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
 }
@@ -41,24 +40,47 @@ body
     padding-right: 20px;
     padding-top: 20px;
     margin: 30px;
-    color: black;
+    margin-left: 65%;
+    color: rgb(17, 16, 16);
     font-style: italic;
     text-transform: uppercase;
     background-color: rgba(224, 213, 224, 0.2);
-    box-shadow: 0 4px 8px 0 rgba(53, 8, 53, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(43, 38, 43, 0.8);
     height: fit-content;
+}
+
+.OurProgress
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);;
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    background-color: rgba(27, 19, 27, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
 }
 
 .header1
 {
     font-style: italic;
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 10px;
+    color: white;
+}
+
+.ProgressHeader
+{
+    font-style: italic;
+    font-size: 55px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
 }
 
 .content1
 {
-    padding: 20px;
+    padding: 30px;
     font-style: italic;
     font-size: 25px;
     color:  rgba(238, 228, 228, 0.8);
@@ -91,7 +113,6 @@ body
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
-    height: auto;
     width: 40%;
 }
 .portals1
