@@ -49,16 +49,20 @@ body
     height: fit-content;
 }
 
+
 .OurProgress
 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);;
     margin-top: 50px;
     padding: 10px;
-    display: block;
     background-color: rgba(27, 19, 27, 0.8);
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center;
 }
+
+
 
 .header1
 {
@@ -68,7 +72,7 @@ body
     color: white;
 }
 
-.ProgressHeader
+/*.ProgressHeader
 {
     font-style: italic;
     font-size: 55px;
@@ -76,7 +80,7 @@ body
     padding-left: 30px;
     color: white;
     text-decoration: none;
-}
+}*/
 
 .content1
 {
@@ -85,7 +89,21 @@ body
     font-size: 25px;
     color:  rgba(238, 228, 228, 0.8);
 }
+.rep:link, .rep:visited{
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 45%;
+    
+}
 
+.rep:hover, .rep:active{
+    background-color: khaki;
+    color: black;
+}
 /*.Picture
 {
     display: block;
@@ -101,37 +119,18 @@ body
     box-shadow: 0 4px 8px 0 rgba(53, 8, 53, 0.8);
 }*/
 
-.logo
-{
-    float: right;
-    margin-right: 20px;
-}
 
-.portals
-{
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    width: 40%;
-}
-.portals1
-{
-    float: right;
-    height: 200px;
-    width: 40%;
-}
-.Learn
-{
-    font-style: "Comic Sans MS";
-    text-align: center; 
-    font-size: 40px;
-    cursor: pointer;
-    color: white
-}
+
+
 .btn 
 {
+    font-style: italic;
+    font-size: 55px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+   
     text-decoration: none;
+    
     margin-top: 20px;
     border: transparent;
     padding: 10px 20px;
@@ -141,6 +140,7 @@ body
 .btn:hover
 {
     border: 1px solid white;
+    
     transition: 0.8s ease;
 }
 

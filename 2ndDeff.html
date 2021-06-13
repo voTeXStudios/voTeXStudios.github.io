@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style5.css">
+        	<link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<div class="heading">
+			<h1 class="text_header">2<sup>nd</sup> Defence</h1>
+		</div>
+
+		<div class="Box">
+			<h2 class="header1">Overview</h2>
+			<p class="content1">This time around we have implemented few commands which are not builtins.
+				We also worked with regex library from C libraries for the first time to implement the grep command, 
+				which we know is important for any shell. We also progressed in terms of autocompletion. 
+				We also implemented a open scientific calculator for our shell.
+
+				<br><br>
+
+				 
+				Presenting the highlights of our work:-
+			</p>
+		</div>
+
+		<div class="Box1">
+			<h2 class="header1">Calc</h2>
+			<img src="Calc.png" class="img1">
+			<p class="content1">This function can be used to open up a scientific calculator with up to 22 math
+				operations. This function can be very useful to make quick mathematical calcu-
+				lations. It takes in input from 0 to 22. User has to input on stdin. The result is
+				printed out on the shell. They way we have implemented the command is goes
+				on in and infinite loop until user inputs 0.
+
+				<br><br>
+
+				As you can see, you can perform endless number of calculations before you
+				choose to exit the function.
+
+			</p>
+		</div>
+
+		<div class="Box2">
+			<h2 class="header1">Alias</h2>
+			<img src="Alias.png" class="img2">
+			<p class="content1">
+				A function that helps the user interact with our shell in an easier way, this func-
+				tion is used to create an "alias" for any one if the existing commands. This can
+				be used to streamline the process of using big command names by shortening
+				them to a more comfortable command name.
+				<br><br>
+				The way it has been implemented is that our function tries to duplicate the
+				3rd argument into the 2nd argument.
+			</p>
+		</div>
+
+		<div class="Box1">
+			<h2 class="header1">grep</h2>
+			<img src="grep.png" class="img1">
+			<p class="content1">
+				Grep basically is a command that tries to match the pattern which could be a
+regular expression or a sub-string to a file. It could be multiple files. I use regex
+to do grep.
+<br><br>
+A regular expression is a sequence of characters that specifies a search pat-
+tern. Usually such patterns are used by string-searching algorithms for "find"
+or "find and replace" operations on strings, or for input validation. It is a tech-
+nique developed in theoretical computer science and formal language theory.
+<br><br>
+For this we have used the regex library. The implementation and usage of the
+regex library was kinda difficult to understand with all the flags. But basically
+we have implemented two attributes for grep, -i and -E. -i is a ignore case flag
+which does not recognise Extended regular expression. -E is the attribute to
+use Extended regular expressions.
+<br><br>
+As you can see, this code is for compiling the pattern, either a regular expres-
+sion or a substring. It uses regcomp function from the library which basically
+a buffer as the first argument and stores the matched info. After it has the
+compiled pattern, it goes through the lines of the file and matches the string.
+			</p>
+		</div>
+		<div class="Box">
+			<h2 class="header1">What's next?</h2>
+			<p class="content1">
+				For the next defence we are gonna implement piping and fd redirection. We
+realise by this defence, it should have been done. But because of internal prob-
+lems in the group, we lagged behind. Nevertheless, we will strive to finish our
+job. Along with this we are gonna implement the history of the shell. Few more
+commands. And the regex will be implemented for every command line. We
+will be introducing the GUI. We feel we have the basics
+ready for a shell. We just need to wrap up few things.
+At the end, we would like to say that we are glad with whatever progress
+we have made so far considering the problems we were facing with one of our
+teammates.
+			</p>
+		</div>
+
+		<div class="OurProgress">
+            		<a href="2ndDefS4.pdf" class="btn">Report</a>
+        	</div>
+	</body>
+</html>
