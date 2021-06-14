@@ -1,0 +1,19 @@
+************************************************* READ ME PLEASE ! ************************************************
+This read me is about how to install our shell.
+
+1 - Prerequisites :
+    Two libraries need to be installed before installing our shell : ncurses and libreadline.
+    Just type the following commands on the terminal in order to install the two libraries :
+
+		sudo apt-get install libreadline-dev
+   	        sudo apt-get install libncurses5-dev libncursesw5-dev
+
+2 - Installation :
+    - Go to the directory location of the downloaded debian package.
+    - open the terminal from there and type the following commands :
+                sudo dpkg -i name_of_the_package.deb
+		sudo apt-get install -f
+
+3 - Launch :
+    Now The shell is installed. In order to launch it, just go to the application search bar and type the name of the program.
+

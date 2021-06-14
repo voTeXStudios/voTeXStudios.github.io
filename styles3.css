@@ -93,31 +93,91 @@ body
     background-color: grey;
     color: white;
     padding: 15px 25px;
+    margin-bottom: 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin-left: 45%;
+    margin-right: 30%;
     
 }
+
+
 
 .rep:hover, .rep:active{
     background-color: khaki;
     color: black;
 }
-/*.Picture
+
+.exec:link, .exec:visited
 {
-    display: block;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    margin: 30px;
+     background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30%;
+}
+.exec:hover, .exec:active
+{
+    background-color: khaki;
     color: black;
-    font-style: italic;
-    text-transform: uppercase;
-    background-color: rgba(224, 213, 224, 0.2);
-    box-shadow: 0 4px 8px 0 rgba(53, 8, 53, 0.8);
-}*/
+
+}
+.pkg:link, .pkg:visited{
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 23%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.pkg:hover, .pkg:active
+{
+    background-color: khaki;
+    color: black;
+}
+
+.pkg2:link, .pkg2:visited{
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 23%;
+    margin-right: 20%;
+    
+}
+
+.pkg2:hover, .pkg2:active{
+    background-color: khaki;
+    color: black;
+}
+
+.readme:link, .readme:visited{
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 17%;
+    margin-right: 10%;
+}
+
+.readme:hover, .readme:active{
+     background-color: khaki;
+    color: black;
+}
 
 
 
